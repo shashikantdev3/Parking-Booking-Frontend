@@ -63,5 +63,3 @@ For any questions or inquiries, please contact:
 Feel free to let us know if you have any feedback, suggestions, or collaboration opportunities.
 
 ---
-
-Please customize the content in the README file according to your project's specific details, including contact information, license terms, and any other relevant information.
