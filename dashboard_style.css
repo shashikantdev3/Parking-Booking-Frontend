@@ -1,0 +1,73 @@
+.spot-status {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.spot-status a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.spot-status.free {
+    background-color: #23BD14; /* Green */
+}
+
+.spot-status.leaving {
+    background-color: #ff9800; /* Orange */
+}
+
+.spot-status.booked {
+    background-color: #F12B22; /* Red */
+}
+
+.spot-status:hover {
+    opacity: 0.8; /* Adjust the opacity value as per your preference */
+}
+
+.navbar {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin-left: 10px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #F0F0F0;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.header {
+    background-color: #00418E;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+h2 {
+    color: #31C3FA;
+    text-align: center;
+}
