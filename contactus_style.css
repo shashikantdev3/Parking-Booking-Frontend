@@ -1,0 +1,114 @@
+    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "montserrat",sans-serif;
+    }
+    body{
+      background-image: url("contact.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+          height: 100vh; /* Set body height to 100% of viewport height */
+    }
+     
+    .contact-section{
+      background: #fff;
+      padding: 80px 0;
+      text-align: center;
+      width: 50%;
+      margin: auto;
+      margin-top: 91px;
+      border-top-right-radius: 300px;
+      border-bottom-left-radius: 300px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.8) 0px 3px 7px -3px;
+      
+    }
+    .contact-section:hover{
+      border-top-left-radius: 300px;
+      border-bottom-right-radius: 300px;
+      transition: .5s;
+    }
+     
+    .inner-width{
+      max-width: 600px;
+      margin: auto;
+      padding: 0 20px;
+     
+    }
+  
+    .contact-section h1{
+      font-size: 22px;
+      color: #00418E;
+      margin-bottom: 40px;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      font-weight: 500;
+    }
+    
+    .contact-section h2{
+      font-size: 22px;
+      color: royalblue;
+      margin-bottom: 40px;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      font-weight: 500;
+    }
+    
+    
+    /*  
+    .name,.email,.message{
+      background: none;
+      border:none;
+      outline: none;
+      border-bottom: 1px solid #FF8066;
+      color: #888;
+      padding: 10px 6px;
+      font-size: 14px;
+      margin-bottom: 40px;
+    }
+     
+    .name{
+      float: left;
+      width: 270px;
+    }
+     
+    .email{
+      float: right;
+      width: 270px;
+    }
+     
+    .message{
+      min-width: 100%;
+      max-width: 100%;
+    }
+     */
+  
+     .contact-section button{
+      background: none;
+      color: #fff;
+      border: 1px solid #00418E;
+      padding: 12px 40px;
+      border-radius: 8px;
+      background: #00418E;
+      text-transform: uppercase;
+      font-size: 14px;
+      transition: 0.4s linear;
+      cursor: pointer;
+    }
+     
+    .contact-section button:hover{
+      background: #fff;
+      color: #00418E;
+    } 
+     
+    @media screen and (max-width:600px){
+      .name,.email{
+        width: 100%;
+      }
+    }
+    
