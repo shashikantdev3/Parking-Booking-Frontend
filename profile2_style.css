@@ -1,0 +1,60 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(241, 232, 105);
+    margin: 0px;
+    padding-top: 10px;
+    background: url('fbg.jpeg');
+}
+
+.profile-container {
+    margin-top: 20px;
+}
+
+.profile-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.profile-container th,
+.profile-container td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    color: black;
+}
+
+.profile-container th {
+    background-color: #00418E;
+    color: white;
+}
+.profile-container {
+margin-top: 20px;
+background-color: #f5f5f5;
+border: 1px solid #ddd;
+padding: 20px;
+border-radius: 5px;
+}
+
+.table {
+width: 100%;
+max-width: 100%;
+margin-bottom: 20px;
+border-collapse: collapse;
+}
+.table th,
+.table td {
+padding: 8px;
+line-height: 1.42857143;
+vertical-align: top;
+border-top: 1px solid #ddd;
+}
+
+.table th {
+font-weight: bold;
+
+background-color: #1489C8;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+background-color: #f9f9f9;
+}
