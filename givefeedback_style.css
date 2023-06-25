@@ -1,0 +1,66 @@
+body {
+    background-image: url("feedback.jpeg");
+    background-size: cover;
+}
+.container {
+    padding-top: 50px;
+    text-align: center;
+    color: #fff;
+}
+.container h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: black;
+}
+.form-check-inline {
+    margin-bottom: 15px;
+}
+.form-check-inline label {
+    margin-right: 15px;
+}
+textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+body {
+background-image: url("p1.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+height: 100vh; /* Set body height to 100% of viewport height */
+}
+
+
+.btn-submit {
+    background-color: #167CC2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.btn-submit:hover {
+    background-color: #218838;
+}
+.btn-book {
+    background-color: #00418E;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: background-color 0.3s ease;
+}
+.btn-book:hover {
+    background-color: #002C5C;
+}
