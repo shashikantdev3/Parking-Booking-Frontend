@@ -6,98 +6,10 @@
   <title>Login Page</title>
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <!-- Custom CSS -->
-  <style>
-   body {
-    background-color: #f8f9fa;
-    background-image: url('p.jpg.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
+  <link rel="stylesheet" href="index_style.css">
+    <link rel="stylesheet" href="header-footer.css">
+</head>
 
-    .header {
-      background-color:#00418E;
-      padding: 20px;
-      color: #fff;
-    }
-    .login-container {
-      max-width: 400px;
-      margin: 0 auto;
-      margin-top: 100px;
-      background-color: #fff;
-      padding: 20px;
-      border-radius: 5px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    }
-
-    .login-container h2 {
-      text-align: center;
-      margin-bottom: 30px;
-    }
-
-    .form-group {
-      margin-bottom: 20px;
-    }
-
-    .form-group label {
-      font-weight: bold;
-    }
-
-    .form-group input {
-      width: 100%;
-      padding: 10px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }   
-     .navbar {
-  background-color: #343a40;
-  color: #fff;
-  padding: 20px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.navbar ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-}
-
-.navbar li {
-  margin-left: 10px;
-}
-
-.navbar a {
-  color: #fff;
-  text-decoration: none;
-}
-
-    .btn-login {
-      width: 100%;
-      padding: 10px;
-      background-color: #007bff;
-      color: #fff;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-
-    .btn-login:hover {
-      background-color: #0069d9;
-    }
-
-    .text-center a {
-      color: #007bff;
-      text-decoration: none;
-    }
-
-    .text-center a:hover {
-      text-decoration: underline;
-    }
-  </style>
 </head>
 <body>
 <header class="header">
@@ -147,7 +59,7 @@
       // Check if user is logged in
       if (isLoggedIn()) {
         // Redirect to booking page
-        window.location.href = "dashboard.php";
+        window.location.href = "dashboard.html";
       } else {
         // Display a message to log in first
         alert("Please log in first to book a slot.");
